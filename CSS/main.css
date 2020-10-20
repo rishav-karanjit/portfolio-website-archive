@@ -6,7 +6,7 @@
     padding: 3vh;
     padding-top: 4vh;
     background-color: #1ABC9C;
-    min-height: 100vh;
+    height: 100vh;
 }
 
 a, a:hover, a:focus, a:active {
