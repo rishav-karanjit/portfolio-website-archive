@@ -301,8 +301,8 @@ html,body{
   }
 
 .rounded-circle{
-  min-width: 65vh;
-  max-height: 50vh;
+  width: 65vh;
+  height: 50vh;
 }
 
 .MoreInfo{
