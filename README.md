@@ -1,1 +1,0 @@
-# rishav-karanjit.github.io
