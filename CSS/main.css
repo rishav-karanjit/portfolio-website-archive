@@ -371,6 +371,46 @@ html,body{
   right: 0;
 }
 
+.button-udemy {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #FF4444;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 20px;
+  padding: 5px;
+  width: 100%;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button-udemy span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button-udemy span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button-udemy:hover span {
+  padding-right: 25px;
+}
+
+.button-udemy:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
 .button-yt {
   display: inline-block;
   border-radius: 4px;
